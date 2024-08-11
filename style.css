@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background-color: rgb(164, 166, 165);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 420px;
+    overflow: hidden;
+}
+#display{
+    width: 85%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: black;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    background-color: #ffff;
+    color: black;
+    font-size: 28px;
+}
+button:active{
+    background-color: bisque;
+}
+.operator{
+    background-color: rgb(20, 20, 20);
+    color: #ffff;
+}
+.operator:hover{
+    background-color: #686666;
+    color: #0d0d0d;
+}
+.operator:active{
+    background-color: #ffff;
+    color: black;
+}
+.clear{
+    background-color: red;
+    color: #ffff;
+}
+.clear:hover{
+    background-color: rgb(250, 85, 85);
+    color: black;
+}
+.clear:active{
+    background-color: black;
+    color: #ffff;
+}
+
